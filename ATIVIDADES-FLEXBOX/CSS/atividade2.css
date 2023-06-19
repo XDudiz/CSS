@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    margin: auto;
+    width: 900px;
+    height: 450px;
+    display: flex;
+}
+
+.principal > .Box1{
+    background-color: red;
+    width: 450px;
+    height: 450px;
+}
+
+.principal > .conteudo{
+    background-color: black;
+    width: 450px;
+    height: 450px;
+}
+
+.principal > .conteudo > .segund{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal > .conteudo > .segund > .yellow{
+    background-color: yellow;
+    height: 150px;
+}
+
+.conteudo2{
+    display: flex;
+}
+
+
+.principal > .conteudo > .segund > .tree{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.principal > .conteudo > .segund > .tree > .conteudo2 > .pink{
+    background-color: pink;
+    height: 300px;
+    width: 50%;
+    flex-direction: column;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+}
+
+.textos > .texto1{
+    background-color: blue;
+    height: 150px;
+    width: 225px;
+    
+}
+
+.textos> .texto2{
+    background-color: aqua;
+    height: 150px;
+    width: 225px;
+}
+

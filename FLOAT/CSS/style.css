@@ -1,0 +1,30 @@
+section{
+
+    width: 700px;
+    margin: auto;
+}
+
+.caixa{
+    background-color: blueviolet;
+    border: 1px solid black;
+    float: right;
+    height: 200px;
+    margin: 5px;
+    width: 200px;
+}
+
+.caixa2{
+    border: 1px solid black;
+    float: left;
+    height: 200px;
+    margin: 5px;
+    width: 200px;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
