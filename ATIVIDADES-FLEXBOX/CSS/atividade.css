@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main > h1{
+    text-align: center;
+    margin: 10px;
+}
+
+.top{
+    display: flex;
+}
+
+.mid{
+    display: flex;
+    justify-content: end;
+}
+
+.bot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.jugle{
+    display: flex;
+    justify-content: space-around;
+}
+
+.color{
+    flex-direction: column;
+    padding: 5px;
+    width: 25%;
+    margin-top: 25px;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}

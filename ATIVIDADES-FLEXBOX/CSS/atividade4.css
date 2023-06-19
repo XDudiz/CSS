@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    border: 1px solid black;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    background-color: aqua;
+    border: 1px solid aqua;
+    width: 90%;
+    margin: auto;
+    height: 75px;
+    margin-top: 10px;
+}
+
+section{
+    display: flex;
+    margin-top: 10px;
+}
+
+.hero{
+    height: 250px;
+    width: 350px;
+    background-color: pink;
+    border: 1px solid pink;
+    margin-left: 48px;
+}
+
+.Content{
+    height: 500px;
+    width: 548px;
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
+.sidbar{
+    height: 400px;
+    width: 350px;
+    background-color: green;
+    border: 1px solid green;
+    margin-left: 48px;
+}
+
+.extra{
+    height: 150px;
+    width: 548px;
+    border: 1px solid gray;
+    background-color: gray;
+}
+
+.imagens{
+    margin-top: 10px;
+}
+
+.C-extra{
+    display: flex;
+    flex-direction: row;
+}
+
+.image{
+    height: 150px;
+    width: 525px;
+    background-color: greenyellow;
+    margin-left: 48px;
+}
+
+.posts{
+    height: 150px;
+    width: 377px;
+    background-color: palevioletred;
+}
+
+.final{
+    margin-top: 10px;
+    display: flex;
+}
+
+footer{
+    background-color: orange;
+    width: 90%;
+    height: 75px;
+    margin: auto;
+}

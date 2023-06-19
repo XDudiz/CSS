@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: auto;
+    max-width: 1500px;
+}
+
+p{
+    margin: 0;
+}
+
+.carrosel{
+    width: 50%;
+    margin: auto;
+}
