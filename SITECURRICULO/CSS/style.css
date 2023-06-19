@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fundo--: #B5E4FF;
+    --destaque--: #A8FFF0;
+    --detalhes--:#99E0E8 ;
+    --fonte--:font-family: 'Roboto', sans-serif;  
+}
+
+body{
+    background-color: var(--fundo--);
+    font-family: var(--fonte--);
+}
+
+main{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 1325px;
+    padding: 5px;
+}
+
+@media (max-width:400px){
+    main{
+        flex-direction: column;
+    }
+
+    article{
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+
+    footer > .footer-icons{
+        margin-left: 32%;
+    }
+}

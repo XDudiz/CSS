@@ -1,0 +1,67 @@
+article{
+    flex: 70%;
+}
+
+article{
+    margin-left: 35px;
+
+}
+
+.top{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+article > .top> .work{
+    align-items: center;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 1em;
+    padding: 5px;
+}
+article > .top> h3{
+    padding: 10px;
+}
+
+article > .top> p{
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+article > .top> .calendario{
+    align-items: center;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 1em;
+    color: green;
+}
+
+article > .top> .calendario > h4{
+    background-color: green;
+    color: #fff;
+    padding: 3px;
+}
+
+article> .bot{
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+article> .bot > .star-bot{
+    display: flex;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 1em;
+}
+
+article > .bot >.calendario-bot{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 1em;
+}
